@@ -24,22 +24,24 @@ O AprendaS é um aplicativo educacional com a proposta inovadora de transformar 
 node server.js
 
 5. **A API estará rodando em:**
-http://localhost:3000
+    ```bash
+    http://localhost:3000
 
 
 **Rotas da API**
-
-1. **Login (GET /login)**
+# Usuario
+#### 1. **Login (GET /login)**
 Realiza o login do usuário com base em email e senha.
 
-Query Params:
-    email: Email do usuário.
-    senha: Senha do usuário.
+## **Query Params:**
+    - email: Email do usuário.
+    - senha: Senha do usuário.
+Exemplo GET:
+    
+    http://localhost:3000/login?email=usuario@example.com&senha=senha123
 
-ex: GET http://localhost:3000/login?email=usuario@example.com&senha=senha123
 
-
-2. **Adicionar Novo Usuário (POST /alunos)**
+#### 2. **Adicionar Novo Usuário (POST /alunos)**
 
 Adiciona um novo usuário ao banco de dados.
 
@@ -53,7 +55,7 @@ body json:
 }
 
 
-3. **Atualizar Informações do Usuário (PUT /alunos/:id)**
+#### 3. **Atualizar Informações do Usuário (PUT /alunos/:id)**
 
 Atualiza os dados de um aluno já cadastrado.
 Parâmetros da URL:
@@ -66,8 +68,8 @@ json:
 }
 
 
-**DISCIPLINAS**
-4. **Disciplinas do Curso do Usuário (GET /disciplinas-usuario/:id)**
+##**DISCIPLINAS**
+#### 4. **Disciplinas do Curso do Usuário (GET /disciplinas-usuario/:id)**
 
 Retorna as disciplinas do curso associado ao aluno logado.
 **Parâmetros da URL:**
@@ -76,7 +78,7 @@ id: ID do aluno.
 ex: GET http://localhost:3000/disciplinas-usuario/1
 
 
-5. **Todas as Disciplinas (GET /disciplinas)**
+#### 5. **Todas as Disciplinas (GET /disciplinas)**
 
 Retorna todas as disciplinas de todos os cursos.
 
@@ -84,14 +86,14 @@ ex: GET http://localhost:3000/disciplinas
 
 
 
-**RANKING**
-6. **Todos os Dados de Ranking (GET /ranking)**
+## **RANKING**
+#### 6. **Todos os Dados de Ranking (GET /ranking)**
 
 Retorna todos os dados do ranking.
 
 ex: GET http://localhost:3000/ranking
 
-7. **Ranking dos Alunos do Mesmo Curso (GET /ranking-curso/:id)**
+#### 7. **Ranking dos Alunos do Mesmo Curso (GET /ranking-curso/:id)**
 
 Retorna os dados de ranking referentes aos alunos do mesmo curso do aluno logado.
 Parâmetros da URL:
@@ -99,7 +101,7 @@ id: ID do aluno.
 
 ex: GET http://localhost:3000/ranking-curso/1
 
-8. Top 10 Ranking do Mesmo Curso (GET /ranking-top10/:id)
+#### 8. Top 10 Ranking do Mesmo Curso (GET /ranking-top10/:id)
 
 Retorna os 10 primeiros colocados do ranking do curso do aluno logado.
 Parâmetros da URL:
