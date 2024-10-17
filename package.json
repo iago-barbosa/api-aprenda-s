@@ -1,15 +1,17 @@
 {
   "name": "api-aprenda-s",
   "version": "1.0.0",
-  "description": "",
+  "description": "O AprendaS é um aplicativo educacional com a proposta inovadora de transformar o aprendizado em uma experiência envolvente e recompensadora. Com um ambiente simples e intuitivo, o AprendaS introduz um sistema de gamificação em que os alunos ganham pontos ao responder perguntas relacionadas aos temas estudados em sala de aula. Esses pontos os ajudam a subir em um ranking estadual, onde aqueles que obtêm mais pontos no final do mês são premiados com descontos nas mensalidades e brindes exclusivos.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.1"
-  }
+  },
+  "devDependencies": {}
 }

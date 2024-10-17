@@ -1,39 +1,205 @@
 {
   "alunos": [
-    { "id": 1, "nome_completo": "Ana Silva", "cidade": "Curitiba", "curso": "Técnico em Desenvolvimento de Sistemas", "email": "ana.silva@example.com", "senha": "senha123" },
-    { "id": 2, "nome_completo": "Carlos Souza", "cidade": "Londrina", "curso": "Técnico em Desenvolvimento de Sistemas", "email": "carlos.souza@example.com", "senha": "senha123" },
-    { "id": 3, "nome_completo": "Maria Oliveira", "cidade": "Maringá", "curso": "Técnico em Desenvolvimento de Sistemas", "email": "maria.oliveira@example.com", "senha": "senha123" },
-    { "id": 4, "nome_completo": "Pedro Rodrigues", "cidade": "Ponta Grossa", "curso": "Técnico em Desenvolvimento de Sistemas", "email": "pedro.rodrigues@example.com", "senha": "senha123" },
-    { "id": 5, "nome_completo": "João Lima", "cidade": "Cascavel", "curso": "Técnico em Desenvolvimento de Sistemas", "email": "joao.lima@example.com", "senha": "senha123" },
-
-    
-    { "id": 41, "nome_completo": "João Pereira", "cidade": "Curitiba", "curso": "Técnico em Administração", "email": "joao.pereira@example.com", "senha": "senha123" },
-    { "id": 42, "nome_completo": "Fernanda Santos", "cidade": "Londrina", "curso": "Técnico em Administração", "email": "fernanda.santos@example.com", "senha": "senha123" },
-    { "id": 43, "nome_completo": "Pedro Alves", "cidade": "Maringá", "curso": "Técnico em Administração", "email": "pedro.alves@example.com", "senha": "senha123" },
-    { "id": 44, "nome_completo": "Mariana Costa", "cidade": "Ponta Grossa", "curso": "Técnico em Administração", "email": "mariana.costa@example.com", "senha": "senha123" },
-    { "id": 45, "nome_completo": "Lucas Souza", "cidade": "Cascavel", "curso": "Técnico em Administração", "email": "lucas.souza@example.com", "senha": "senha123" },
-
-    
-    { "id": 81, "nome_completo": "Lucas Nogueira", "cidade": "Curitiba", "curso": "Técnico em Enfermagem", "email": "lucas.nogueira@example.com", "senha": "senha123" },
-    { "id": 82, "nome_completo": "Mariana Silva", "cidade": "Londrina", "curso": "Técnico em Enfermagem", "email": "mariana.silva@example.com", "senha": "senha123" },
-    { "id": 83, "nome_completo": "Bruna Ferreira", "cidade": "Maringá", "curso": "Técnico em Enfermagem", "email": "bruna.ferreira@example.com", "senha": "senha123" },
-    { "id": 84, "nome_completo": "Paula Almeida", "cidade": "Ponta Grossa", "curso": "Técnico em Enfermagem", "email": "paula.almeida@example.com", "senha": "senha123" },
-    { "id": 85, "nome_completo": "Thiago Lima", "cidade": "Cascavel", "curso": "Técnico em Enfermagem", "email": "thiago.lima@example.com", "senha": "senha123" },
-
-
-
-    { "id": 121, "nome_completo": "Thiago Santos", "cidade": "Curitiba", "curso": "Técnico em Elétrica", "email": "thiago.santos@example.com", "senha": "senha123" },
-    { "id": 122, "nome_completo": "Vanessa Almeida", "cidade": "Londrina", "curso": "Técnico em Elétrica", "email": "vanessa.almeida@example.com", "senha": "senha123" },
-    { "id": 123, "nome_completo": "Rafael Barbosa", "cidade": "Maringá", "curso": "Técnico em Elétrica", "email": "rafael.barbosa@example.com", "senha": "senha123" },
-    { "id": 124, "nome_completo": "Felipe Ferreira", "cidade": "Ponta Grossa", "curso": "Técnico em Elétrica", "email": "felipe.ferreira@example.com", "senha": "senha123" },
-    { "id": 125, "nome_completo": "Bruno Oliveira", "cidade": "Cascavel", "curso": "Técnico em Elétrica", "email": "bruno.oliveira@example.com", "senha": "senha123" }
+    {
+      "id": 1,
+      "nome_completo": "Ana Silva",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Desenvolvimento de Sistemas",
+      "email": "ana.silva@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 2,
+      "nome_completo": "Carlos Souza",
+      "cidade": "Londrina",
+      "curso": "Técnico em Desenvolvimento de Sistemas",
+      "email": "carlos.souza@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 3,
+      "nome_completo": "Maria Oliveira",
+      "cidade": "Maringá",
+      "curso": "Técnico em Desenvolvimento de Sistemas",
+      "email": "maria.oliveira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 4,
+      "nome_completo": "Pedro Rodrigues",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Desenvolvimento de Sistemas",
+      "email": "pedro.rodrigues@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 5,
+      "nome_completo": "João Lima",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Desenvolvimento de Sistemas",
+      "email": "joao.lima@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 41,
+      "nome_completo": "João Pereira",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Administração",
+      "email": "joao.pereira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 42,
+      "nome_completo": "Fernanda Santos",
+      "cidade": "Londrina",
+      "curso": "Técnico em Administração",
+      "email": "fernanda.santos@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 43,
+      "nome_completo": "Pedro Alves",
+      "cidade": "Maringá",
+      "curso": "Técnico em Administração",
+      "email": "pedro.alves@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 44,
+      "nome_completo": "Mariana Costa",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Administração",
+      "email": "mariana.costa@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 45,
+      "nome_completo": "Lucas Souza",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Administração",
+      "email": "lucas.souza@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 81,
+      "nome_completo": "Lucas Nogueira",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Enfermagem",
+      "email": "lucas.nogueira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 82,
+      "nome_completo": "Mariana Silva",
+      "cidade": "Londrina",
+      "curso": "Técnico em Enfermagem",
+      "email": "mariana.silva@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 83,
+      "nome_completo": "Bruna Ferreira",
+      "cidade": "Maringá",
+      "curso": "Técnico em Enfermagem",
+      "email": "bruna.ferreira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 84,
+      "nome_completo": "Paula Almeida",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Enfermagem",
+      "email": "paula.almeida@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 85,
+      "nome_completo": "Thiago Lima",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Enfermagem",
+      "email": "thiago.lima@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 121,
+      "nome_completo": "Thiago Santos",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Elétrica",
+      "email": "thiago.santos@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 122,
+      "nome_completo": "Vanessa Almeida",
+      "cidade": "Londrina",
+      "curso": "Técnico em Elétrica",
+      "email": "vanessa.almeida@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 123,
+      "nome_completo": "Rafael Barbosa",
+      "cidade": "Maringá",
+      "curso": "Técnico em Elétrica",
+      "email": "rafael.barbosa@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 124,
+      "nome_completo": "Felipe Ferreira",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Elétrica",
+      "email": "felipe.ferreira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 125,
+      "nome_completo": "Bruno Oliveira",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Elétrica",
+      "email": "bruno.oliveira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "nome_completo": "Novo Aluno",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Desenvolvimento de Sistemas",
+      "email": "novo.aluno@example.com",
+      "senha": "senha123",
+      "id": 21
+    }
   ],
   "ranking": [
-    { "id": 1, "estado": "PR", "aluno": "Ana Silva", "pontos": 120 },
-    { "id": 2, "estado": "PR", "aluno": "Carlos Souza", "pontos": 110 },
-    { "id": 3, "estado": "PR", "aluno": "Maria Oliveira", "pontos": 115 },
-    { "id": 4, "estado": "PR", "aluno": "Pedro Rodrigues", "pontos": 122 },
-    { "id": 5, "estado": "PR", "aluno": "João Lima", "pontos": 130 }
+    {
+      "id": 1,
+      "estado": "PR",
+      "aluno": "Ana Silva",
+      "pontos": 120
+    },
+    {
+      "id": 2,
+      "estado": "PR",
+      "aluno": "Carlos Souza",
+      "pontos": 110
+    },
+    {
+      "id": 3,
+      "estado": "PR",
+      "aluno": "Maria Oliveira",
+      "pontos": 115
+    },
+    {
+      "id": 4,
+      "estado": "PR",
+      "aluno": "Pedro Rodrigues",
+      "pontos": 122
+    },
+    {
+      "id": 5,
+      "estado": "PR",
+      "aluno": "João Lima",
+      "pontos": 130
+    }
   ],
   "cursos": [
     {
@@ -41,8 +207,16 @@
       "nome_curso": "Técnico em Desenvolvimento de Sistemas",
       "area": "Tecnologia",
       "disciplinas": [
-        { "id": 1, "nome_disciplina": "Programação Web", "descricao": "Desenvolvimento de sistemas web" },
-        { "id": 2, "nome_disciplina": "Banco de Dados", "descricao": "Modelagem e administração de bancos de dados" }
+        {
+          "id": 1,
+          "nome_disciplina": "Programação Web",
+          "descricao": "Desenvolvimento de sistemas web"
+        },
+        {
+          "id": 2,
+          "nome_disciplina": "Banco de Dados",
+          "descricao": "Modelagem e administração de bancos de dados"
+        }
       ]
     },
     {
@@ -50,8 +224,16 @@
       "nome_curso": "Técnico em Administração",
       "area": "Gestão",
       "disciplinas": [
-        { "id": 1, "nome_disciplina": "Gestão de Pessoas", "descricao": "Administração de equipes e pessoas" },
-        { "id": 2, "nome_disciplina": "Marketing", "descricao": "Fundamentos de marketing para negócios" }
+        {
+          "id": 1,
+          "nome_disciplina": "Gestão de Pessoas",
+          "descricao": "Administração de equipes e pessoas"
+        },
+        {
+          "id": 2,
+          "nome_disciplina": "Marketing",
+          "descricao": "Fundamentos de marketing para negócios"
+        }
       ]
     },
     {
@@ -59,8 +241,16 @@
       "nome_curso": "Técnico em Enfermagem",
       "area": "Saúde",
       "disciplinas": [
-        { "id": 1, "nome_disciplina": "Enfermagem Geral", "descricao": "Cuidados gerais com pacientes" },
-        { "id": 2, "nome_disciplina": "Anatomia", "descricao": "Estudo da estrutura corporal humana" }
+        {
+          "id": 1,
+          "nome_disciplina": "Enfermagem Geral",
+          "descricao": "Cuidados gerais com pacientes"
+        },
+        {
+          "id": 2,
+          "nome_disciplina": "Anatomia",
+          "descricao": "Estudo da estrutura corporal humana"
+        }
       ]
     },
     {
@@ -68,8 +258,16 @@
       "nome_curso": "Técnico em Elétrica",
       "area": "Indústria",
       "disciplinas": [
-        { "id": 1, "nome_disciplina": "Circuitos Elétricos", "descricao": "Estudo de circuitos e componentes elétricos" },
-        { "id": 2, "nome_disciplina": "Instalações Elétricas", "descricao": "Projetos e execução de instalações elétricas" }
+        {
+          "id": 1,
+          "nome_disciplina": "Circuitos Elétricos",
+          "descricao": "Estudo de circuitos e componentes elétricos"
+        },
+        {
+          "id": 2,
+          "nome_disciplina": "Instalações Elétricas",
+          "descricao": "Projetos e execução de instalações elétricas"
+        }
       ]
     }
   ]
