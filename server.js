@@ -1,9 +1,12 @@
 const express = require('express');
 const fs = require('fs');
+const path = require('path');
 const app = express();
 const PORT = 3000;
 
 app.use(express.json());
+
+// possui +3 imagens de mulheres
 
 const readDatabase = () => {
   const data = fs.readFileSync('database.json');
@@ -14,10 +17,21 @@ const writeDatabase = (data) => {
   fs.writeFileSync('database.json', JSON.stringify(data, null, 2));
 };
 
-// GET - Realizar login do usuário (retornar o objeto do usuário)
-app.get('/login', (req, res) => {
-  const { email, senha } = req.query;
+const convertImageToBase64 = (filePath) => {
+  try {
+    const image = fs.readFileSync(filePath);
+    return `data:image/jpeg;base64,${image.toString('base64')}`;
+  } catch (err) {
+    console.error(`Erro ao converter a imagem: ${filePath}`, err);
+    return "";
+  }
+};
+
+
+// POST - Realizar login do usuário (retornar o objeto do usuário)
+app.post('/login', (req, res) => {
   const db = readDatabase();
+  const { email, senha } = req.body;
   
   const usuario = db.alunos.find(aluno => aluno.email === email && aluno.senha === senha);
   
@@ -120,6 +134,13 @@ app.get('/ranking-top10/:id', (req, res) => {
       const alunoRank = db.alunos.find(a => a.nome_completo === entry.aluno);
       return alunoRank && alunoRank.curso === aluno.curso;
     }).sort((a, b) => b.pontos - a.pontos).slice(0, 10);
+
+    rankingCurso.forEach(aluno => {
+          const caminhoImagem = path.join(__dirname, aluno.foto);
+          const fotoConvertida = convertImageToBase64(caminhoImagem);
+
+          aluno.foto = fotoConvertida;
+    });
     
     res.status(200).json(rankingCurso);
   } else {

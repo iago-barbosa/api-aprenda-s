@@ -30,15 +30,16 @@ node server.js
 
 **Rotas da API**
 # Usuario
-#### 1. **Login (GET /login)**
+#### 1. **Login (POST /login)**
 Realiza o login do usuário com base em email e senha.
 
-## **Query Params:**
-    - email: Email do usuário.
-    - senha: Senha do usuário.
-Exemplo GET:
-    
-    http://localhost:3000/login?email=usuario@example.com&senha=senha123
+**body** 
+~~~json
+{
+  "email": "novo.aluno@example.com",
+  "senha": "senha123"
+}
+~~~
 
 
 #### 2. **Adicionar Novo Usuário (POST /alunos)**
@@ -65,13 +66,13 @@ id: ID do aluno.
 
 ~~~json 
 {
-  "cidade": "Nova Cidade",
-  "email": "novo.email@example.com"
+    "nome_completo": "Novo nome",
+    "cidade": "Nova Cidade"
 }
 ~~~
 
 
-##**DISCIPLINAS**
+## **DISCIPLINAS**
 #### 4. **Disciplinas do Curso do Usuário (GET /disciplinas-usuario/:id)**
 
 Retorna as disciplinas do curso associado ao aluno logado.

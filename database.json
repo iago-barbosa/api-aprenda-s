@@ -159,47 +159,150 @@
       "curso": "Técnico em Elétrica",
       "email": "bruno.oliveira@example.com",
       "senha": "senha123"
-    },
-    {
-      "nome_completo": "Novo Aluno",
-      "cidade": "Curitiba",
-      "curso": "Técnico em Desenvolvimento de Sistemas",
-      "email": "novo.aluno@example.com",
-      "senha": "senha123",
-      "id": 21
     }
   ],
   "ranking": [
     {
       "id": 1,
-      "estado": "PR",
+      "estado": "Paraná",
       "aluno": "Ana Silva",
-      "pontos": 120
+      "pontos": 120,
+      "foto": "assets/abo6170.jpg"
     },
     {
       "id": 2,
-      "estado": "PR",
+      "estado": "Paraná",
       "aluno": "Carlos Souza",
-      "pontos": 110
+      "pontos": 110,
+      "foto": "assets/aen2602.jpg"
     },
     {
       "id": 3,
-      "estado": "PR",
+      "estado": "Paraná",
       "aluno": "Maria Oliveira",
-      "pontos": 115
+      "pontos": 115,
+      "foto": "assets/ahu2230.jpg"
     },
     {
       "id": 4,
-      "estado": "PR",
+      "estado": "Paraná",
       "aluno": "Pedro Rodrigues",
-      "pontos": 122
+      "pontos": 122,
+      "foto": "assets/ain4390.jpg"
     },
     {
       "id": 5,
-      "estado": "PR",
+      "estado": "Paraná",
       "aluno": "João Lima",
-      "pontos": 130
+      "pontos": 130,
+      "foto": "assets/arz9069.jpg"
+    },
+    {
+      "id": 6,
+      "estado": "Paraná",
+      "aluno": "João Pereira",
+      "pontos": 780,
+      "foto": "assets/AUK2645.jpg"
+    },
+    {
+      "id": 7,
+      "estado": "Paraná",
+      "aluno": "Fernanda Santos",
+      "pontos": 910,
+      "foto": "assets/dan3745.jpg"
+    },
+    {
+      "id": 8,
+      "estado": "Paraná",
+      "aluno": "Pedro Alves",
+      "pontos": 670,
+      "foto": "assets/bae7596.jpg"
+    },
+    {
+      "id": 9,
+      "estado": "Paraná",
+      "aluno": "Mariana Costa",
+      "pontos": 720,
+      "foto": "assets/mas4503.jpg"
+    },
+    {
+      "id": 10,
+      "estado": "Paraná",
+      "aluno": "Lucas Souza",
+      "pontos": 830,
+      "foto": "assets/bie6773.jpg"
+    },
+    {
+      "id": 11,
+      "estado": "Paraná",
+      "aluno": "Lucas Nogueira",
+      "pontos": 940,
+      "foto": "assets/bor4556.jpg"
+    },
+    {
+      "id": 12,
+      "estado": "Paraná",
+      "aluno": "Mariana Silva",
+      "pontos": 680,
+      "foto": "assets/MSD2280.jpg"
+    },
+    {
+      "id": 13,
+      "estado": "Paraná",
+      "aluno": "Bruna Ferreira",
+      "pontos": 860,
+      "foto": "assets/res8428.jpg"
+    },
+    {
+      "id": 14,
+      "estado": "Paraná",
+      "aluno": "Paula Almeida",
+      "pontos": 720,
+      "foto": "assets/sur3574.jpg"
+    },
+    {
+      "id": 15,
+      "estado": "Paraná",
+      "aluno": "Thiago Lima",
+      "pontos": 950,
+      "foto": "assets/bor6342.jpg"
+    },
+    {
+      "id": 16,
+      "estado": "Paraná",
+      "aluno": "Thiago Santos",
+      "pontos": 880,
+      "foto": "assets/coy6811.jpg"
+    },
+    {
+      "id": 17,
+      "estado": "Paraná",
+      "aluno": "Vanessa Almeida",
+      "pontos": 760,
+      "foto": "assets/suy4544.jpg"
+    },
+    {
+      "id": 18,
+      "estado": "Paraná",
+      "aluno": "Rafael Barbosa",
+      "pontos": 810,
+      "foto": "assets/rafael_barbosa.jpg"
+    },
+    {
+      "id": 19,
+      "estado": "Paraná",
+      "aluno": "Felipe Ferreira",
+      "pontos": 690,
+      "foto": "assets/felipe_ferreira.jpg"
+    },
+    {
+      "id": 20,
+      "estado": "Paraná",
+      "aluno": "Bruno Oliveira",
+      "pontos": 770,
+      "foto": "assets/bruno_oliveira.jpg"
     }
+
   ],
   "cursos": [
     {
@@ -209,7 +312,7 @@
       "disciplinas": [
         {
           "id": 1,
-          "nome_disciplina": "Programação Web",
+          "nome_disciplina": "Paranáogramação Web",
           "descricao": "Desenvolvimento de sistemas web"
         },
         {
