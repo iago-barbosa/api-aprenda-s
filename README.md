@@ -16,6 +16,7 @@ O AprendaS é um aplicativo educacional com a proposta inovadora de transformar 
    ```bash
    npm init -y
    npm install express fs
+   ```
 
 3. **Caso o npm não esteja sendo reconhecido, execute como administrador o comando:**
 - Set-ExecutionPolicy RemoteSigned
@@ -26,6 +27,7 @@ node server.js
 5. **A API estará rodando em:**
     ```bash
     http://localhost:3000
+    ```
 
 
 **Rotas da API**
