@@ -98,6 +98,13 @@ app.get('/disciplinas', (req, res) => {
   res.status(200).json(todasDisciplinas);
 });
 
+// GET - Retornar todos os cursos
+app.get('/cursos', (req, res) => {
+  const db = readDatabase();
+
+  res.status(200).json(db.cursos)
+});
+
 // GET - Retornar todos os dados de ranking
 app.get('/ranking', (req, res) => {
   const db = readDatabase();
