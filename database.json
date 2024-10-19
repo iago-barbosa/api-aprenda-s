@@ -161,7 +161,7 @@
       "senha": "senha123"
     },
     {
-      "id": 35,
+      "id": 21,
       "nome_completo": "Arthur Silva",
       "cidade": "Londrina",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -169,7 +169,7 @@
       "senha": "senha123"
     },
     {
-      "id": 36,
+      "id": 22,
       "nome_completo": "Diego Santos",
       "cidade": "Maringá",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -177,7 +177,7 @@
       "senha": "senha123"
     },
     {
-      "id": 37,
+      "id": 23,
       "nome_completo": "Eduardo Gonçalves",
       "cidade": "Cascavel",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -185,7 +185,7 @@
       "senha": "senha123"
     },
     {
-      "id": 38,
+      "id": 24,
       "nome_completo": "Matheus Lima",
       "cidade": "Curitiba",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -193,7 +193,7 @@
       "senha": "senha123"
     },
     {
-      "id": 39,
+      "id": 25,
       "nome_completo": "Thiago Costa",
       "cidade": "Ponta Grossa",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -201,7 +201,7 @@
       "senha": "senha123"
     },
     {
-      "id": 40,
+      "id": 26,
       "nome_completo": "Daniel Almeida",
       "cidade": "Londrina",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -209,7 +209,7 @@
       "senha": "senha123"
     },
     {
-      "id": 41,
+      "id": 27,
       "nome_completo": "Henrique Oliveira",
       "cidade": "Maringá",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -217,7 +217,7 @@
       "senha": "senha123"
     },
     {
-      "id": 42,
+      "id": 28,
       "nome_completo": "Bruno Faria",
       "cidade": "Cascavel",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -225,7 +225,7 @@
       "senha": "senha123"
     },
     {
-      "id": 43,
+      "id": 29,
       "nome_completo": "Rafael Souza",
       "cidade": "Curitiba",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -233,7 +233,7 @@
       "senha": "senha123"
     },
     {
-      "id": 44,
+      "id": 30,
       "nome_completo": "Victor Barbosa",
       "cidade": "Ponta Grossa",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -241,7 +241,7 @@
       "senha": "senha123"
     },
     {
-      "id": 45,
+      "id": 31,
       "nome_completo": "Lucas Ferreira",
       "cidade": "Londrina",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -249,7 +249,7 @@
       "senha": "senha123"
     },
     {
-      "id": 46,
+      "id": 32,
       "nome_completo": "Vinícius Ribeiro",
       "cidade": "Maringá",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -257,7 +257,7 @@
       "senha": "senha123"
     },
     {
-      "id": 47,
+      "id": 33,
       "nome_completo": "Leandro Melo",
       "cidade": "Cascavel",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -265,7 +265,7 @@
       "senha": "senha123"
     },
     {
-      "id": 48,
+      "id": 34,
       "nome_completo": "Felipe Cardoso",
       "cidade": "Curitiba",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -273,7 +273,7 @@
       "senha": "senha123"
     },
     {
-      "id": 49,
+      "id": 35,
       "nome_completo": "Marcos Silva",
       "cidade": "Ponta Grossa",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -281,7 +281,7 @@
       "senha": "senha123"
     },
     {
-      "id": 50,
+      "id": 36,
       "nome_completo": "Fernando Gomes",
       "cidade": "Londrina",
       "curso": "Técnico em Desenvolvimento de Sistemas",
@@ -289,11 +289,427 @@
       "senha": "senha123"
     },
     {
-      "id": 51,
+      "id": 37,
       "nome_completo": "Caio Mendes",
       "cidade": "Maringá",
       "curso": "Técnico em Desenvolvimento de Sistemas",
       "email": "caio.mendes@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 38,
+      "nome_completo": "André Carvalho",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Administração",
+      "email": "andre.carvalho@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 39,
+      "nome_completo": "Carlos Eduardo Santos",
+      "cidade": "Londrina",
+      "curso": "Técnico em Administração",
+      "email": "carlos.santos@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 40,
+      "nome_completo": "Fernando Lima",
+      "cidade": "Maringá",
+      "curso": "Técnico em Administração",
+      "email": "fernando.lima@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 41,
+      "nome_completo": "Pedro Soares",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Administração",
+      "email": "pedro.soares@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 42,
+      "nome_completo": "Fábio Almeida",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Administração",
+      "email": "fabio.almeida@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 43,
+      "nome_completo": "Gustavo Silva",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Administração",
+      "email": "gustavo.silva@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 44,
+      "nome_completo": "Ricardo Gonçalves",
+      "cidade": "Londrina",
+      "curso": "Técnico em Administração",
+      "email": "ricardo.goncalves@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 45,
+      "nome_completo": "Luiz Henrique Oliveira",
+      "cidade": "Maringá",
+      "curso": "Técnico em Administração",
+      "email": "luiz.oliveira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 46,
+      "nome_completo": "Marcelo Ribeiro",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Administração",
+      "email": "marcelo.ribeiro@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 47,
+      "nome_completo": "Felipe Costa",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Administração",
+      "email": "felipe.costa@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 48,
+      "nome_completo": "Rodrigo Mendes",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Administração",
+      "email": "rodrigo.mendes@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 49,
+      "nome_completo": "Bruno Barbosa",
+      "cidade": "Londrina",
+      "curso": "Técnico em Administração",
+      "email": "bruno.barbosa@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 50,
+      "nome_completo": "Rafael Ferreira",
+      "cidade": "Maringá",
+      "curso": "Técnico em Administração",
+      "email": "rafael.ferreira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 51,
+      "nome_completo": "Caio Cardoso",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Administração",
+      "email": "caio.cardoso@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 52,
+      "nome_completo": "Daniel Martins",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Administração",
+      "email": "daniel.martins@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 53,
+      "nome_completo": "Igor Souza",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Administração",
+      "email": "igor.souza@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 54,
+      "nome_completo": "Vinícius Araújo",
+      "cidade": "Londrina",
+      "curso": "Técnico em Administração",
+      "email": "vinicius.araujo@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 55,
+      "nome_completo": "João Almeida",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Enfermagem",
+      "email": "joao.almeida@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 56,
+      "nome_completo": "Mariana Silva",
+      "cidade": "Londrina",
+      "curso": "Técnico em Enfermagem",
+      "email": "mariana.silva@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 57,
+      "nome_completo": "Thiago Santos",
+      "cidade": "Maringá",
+      "curso": "Técnico em Enfermagem",
+      "email": "thiago.santos@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 58,
+      "nome_completo": "Lucas Oliveira",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Enfermagem",
+      "email": "lucas.oliveira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 59,
+      "nome_completo": "Juliana Costa",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Enfermagem",
+      "email": "juliana.costa@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 60,
+      "nome_completo": "Mateus Rocha",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Enfermagem",
+      "email": "mateus.rocha@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 61,
+      "nome_completo": "Ricardo Nunes",
+      "cidade": "Londrina",
+      "curso": "Técnico em Enfermagem",
+      "email": "ricardo.nunes@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 62,
+      "nome_completo": "Renato Martins",
+      "cidade": "Maringá",
+      "curso": "Técnico em Enfermagem",
+      "email": "renato.martins@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 63,
+      "nome_completo": "Felipe Araújo",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Enfermagem",
+      "email": "felipe.araujo@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 64,
+      "nome_completo": "Gustavo Ribeiro",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Enfermagem",
+      "email": "gustavo.ribeiro@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 65,
+      "nome_completo": "Bruno Ferreira",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Enfermagem",
+      "email": "bruno.ferreira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 66,
+      "nome_completo": "Paulo Cardoso",
+      "cidade": "Londrina",
+      "curso": "Técnico em Enfermagem",
+      "email": "paulo.cardoso@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 67,
+      "nome_completo": "Rafael Souza",
+      "cidade": "Maringá",
+      "curso": "Técnico em Enfermagem",
+      "email": "rafael.souza@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 68,
+      "nome_completo": "Vitor Mendes",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Enfermagem",
+      "email": "vitor.mendes@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 69,
+      "nome_completo": "Ana Paula Farias",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Enfermagem",
+      "email": "ana.farias@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 70,
+      "nome_completo": "Daniel Correia",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Enfermagem",
+      "email": "daniel.correia@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 71,
+      "nome_completo": "Leandro Barros",
+      "cidade": "Londrina",
+      "curso": "Técnico em Enfermagem",
+      "email": "leandro.barros@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 72,
+      "nome_completo": "Carlos Pereira",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Elétrica",
+      "email": "carlos.pereira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 73,
+      "nome_completo": "Eduardo Souza",
+      "cidade": "Londrina",
+      "curso": "Técnico em Elétrica",
+      "email": "eduardo.souza@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 74,
+      "nome_completo": "Leonardo Martins",
+      "cidade": "Maringá",
+      "curso": "Técnico em Elétrica",
+      "email": "leonardo.martins@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 75,
+      "nome_completo": "Rodrigo Oliveira",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Elétrica",
+      "email": "rodrigo.oliveira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 76,
+      "nome_completo": "Bruno Lima",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Elétrica",
+      "email": "bruno.lima@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 77,
+      "nome_completo": "Felipe Gonçalves",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Elétrica",
+      "email": "felipe.goncalves@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 78,
+      "nome_completo": "João Mendes",
+      "cidade": "Londrina",
+      "curso": "Técnico em Elétrica",
+      "email": "joao.mendes@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 79,
+      "nome_completo": "Ricardo Batista",
+      "cidade": "Maringá",
+      "curso": "Técnico em Elétrica",
+      "email": "ricardo.batista@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 80,
+      "nome_completo": "Thiago Costa",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Elétrica",
+      "email": "thiago.costa@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 81,
+      "nome_completo": "Paulo Ferreira",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Elétrica",
+      "email": "paulo.ferreira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 82,
+      "nome_completo": "André Almeida",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Elétrica",
+      "email": "andre.almeida@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 83,
+      "nome_completo": "Marcelo Barbosa",
+      "cidade": "Londrina",
+      "curso": "Técnico em Elétrica",
+      "email": "marcelo.barbosa@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 84,
+      "nome_completo": "Rafael Lima",
+      "cidade": "Maringá",
+      "curso": "Técnico em Elétrica",
+      "email": "rafael.lima@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 85,
+      "nome_completo": "Guilherme Nogueira",
+      "cidade": "Cascavel",
+      "curso": "Técnico em Elétrica",
+      "email": "guilherme.nogueira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 86,
+      "nome_completo": "Matheus Silva",
+      "cidade": "Ponta Grossa",
+      "curso": "Técnico em Elétrica",
+      "email": "matheus.silva@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 87,
+      "nome_completo": "Lucas Vieira",
+      "cidade": "Curitiba",
+      "curso": "Técnico em Elétrica",
+      "email": "lucas.vieira@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 88,
+      "nome_completo": "Diego Lopes",
+      "cidade": "Londrina",
+      "curso": "Técnico em Elétrica",
+      "email": "diego.lopes@example.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 89,
+      "nome_completo": "Irineu Fernando Souza",
+      "cidade": "Londrina",
+      "curso": "Técnico em Elétrica",
+      "email": "irineu.souza@example.com",
       "senha": "senha123"
     }
   ],
@@ -422,140 +838,504 @@
       "estado": "Paraná",
       "aluno": "Rafael Barbosa",
       "pontos": 810,
-      "foto": "assets/rafael_barbosa.jpg"
+      "foto": "assets/dar1906.jpg"
     },
     {
       "id": 19,
       "estado": "Paraná",
       "aluno": "Felipe Ferreira",
       "pontos": 690,
-      "foto": "assets/felipe_ferreira.jpg"
+      "foto": "assets/dir6582.jpg"
     },
     {
       "id": 20,
       "estado": "Paraná",
       "aluno": "Bruno Oliveira",
       "pontos": 770,
-      "foto": "assets/bruno_oliveira.jpg"
+      "foto": "assets/dor3707.jpg"
+    },
+    {
+      "id": 21,
+      "estado": "Paraná",
+      "aluno": "Arthur Silva",
+      "pontos": 140,
+      "foto": "assets/dul8098.jpg"
+    },
+    {
+      "id": 22,
+      "estado": "Paraná",
+      "aluno": "Diego Santos",
+      "pontos": 135,
+      "foto": "assets/ece1197.jpg"
+    },
+    {
+      "id": 23,
+      "estado": "Paraná",
+      "aluno": "Eduardo Gonçalves",
+      "pontos": 120,
+      "foto": "assets/ede1614.jpg"
+    },
+    {
+      "id": 24,
+      "estado": "Paraná",
+      "aluno": "Matheus Lima",
+      "pontos": 132,
+      "foto": "assets/ega1908.jpg"
+    },
+    {
+      "id": 25,
+      "estado": "Paraná",
+      "aluno": "Thiago Costa",
+      "pontos": 125,
+      "foto": "assets/eol4606.jpg"
+    },
+    {
+      "id": 26,
+      "estado": "Paraná",
+      "aluno": "Daniel Almeida",
+      "pontos": 110,
+      "foto": "assets/eon5859.jpg"
+    },
+    {
+      "id": 27,
+      "estado": "Paraná",
+      "aluno": "Henrique Oliveira",
+      "pontos": 138,
+      "foto": "assets/epa5121.jpg"
+    },
+    {
+      "id": 28,
+      "estado": "Paraná",
+      "aluno": "Bruno Faria",
+      "pontos": 115,
+      "foto": "assets/exu6961.jpg"
+    },
+    {
+      "id": 29,
+      "estado": "Paraná",
+      "aluno": "Rafael Souza",
+      "pontos": 130,
+      "foto": "assets/fia8204.jpg"
+    },
+    {
+      "id": 30,
+      "estado": "Paraná",
+      "aluno": "Victor Barbosa",
+      "pontos": 145,
+      "foto": "assets/fim3140.jpg"
+    },
+    {
+      "id": 31,
+      "estado": "Paraná",
+      "aluno": "Lucas Ferreira",
+      "pontos": 120,
+      "foto": "assets/gak4591.jpg"
+    },
+    {
+      "id": 32,
+      "estado": "Paraná",
+      "aluno": "Vinícius Ribeiro",
+      "pontos": 128,
+      "foto": "assets/gal3576.jpg"
+    },
+    {
+      "id": 33,
+      "estado": "Paraná",
+      "aluno": "Leandro Melo",
+      "pontos": 112,
+      "foto": "assets/gan1983.jpg"
+    },
+    {
+      "id": 34,
+      "estado": "Paraná",
+      "aluno": "Felipe Cardoso",
+      "pontos": 130,
+      "foto": "assets/GPK4812.jpg"
     },
     {
       "id": 35,
       "estado": "Paraná",
-      "aluno": "Arthur Silva",
+      "aluno": "Marcos Silva",
       "pontos": 140,
-      "foto": "assets/artur6532.jpg"
+      "foto": "assets/guk8090.jpg"
     },
     {
       "id": 36,
       "estado": "Paraná",
-      "aluno": "Diego Santos",
-      "pontos": 135,
-      "foto": "assets/diego8293.jpg"
+      "aluno": "Fernando Gomes",
+      "pontos": 125,
+      "foto": "assets/hic9001.jpg"
     },
     {
       "id": 37,
       "estado": "Paraná",
-      "aluno": "Eduardo Gonçalves",
-      "pontos": 120,
-      "foto": "assets/eduardo2240.jpg"
+      "aluno": "Caio Mendes",
+      "pontos": 135,
+      "foto": "assets/hir2145.jpg"
     },
     {
       "id": 38,
       "estado": "Paraná",
-      "aluno": "Matheus Lima",
-      "pontos": 132,
-      "foto": "assets/matheus2893.jpg"
+      "aluno": "André Carvalho",
+      "pontos": 140,
+      "foto": "assets/hol9432.jpg"
     },
     {
       "id": 39,
       "estado": "Paraná",
-      "aluno": "Thiago Costa",
-      "pontos": 125,
-      "foto": "assets/thiago9845.jpg"
+      "aluno": "Carlos Eduardo Santos",
+      "pontos": 135,
+      "foto": "assets/HQD3996.jpg"
     },
     {
       "id": 40,
       "estado": "Paraná",
-      "aluno": "Daniel Almeida",
-      "pontos": 110,
-      "foto": "assets/daniel7282.jpg"
+      "aluno": "Fernando Lima",
+      "pontos": 120,
+      "foto": "assets/hub5224.jpg"
     },
     {
       "id": 41,
       "estado": "Paraná",
-      "aluno": "Henrique Oliveira",
-      "pontos": 138,
-      "foto": "assets/henrique7638.jpg"
+      "aluno": "Pedro Soares",
+      "pontos": 132,
+      "foto": "assets/ian8344.jpg"
     },
     {
       "id": 42,
       "estado": "Paraná",
-      "aluno": "Bruno Faria",
-      "pontos": 115,
-      "foto": "assets/bruno4573.jpg"
+      "aluno": "Fábio Almeida",
+      "pontos": 125,
+      "foto": "assets/IEZ4479.jpg"
     },
     {
       "id": 43,
       "estado": "Paraná",
-      "aluno": "Rafael Souza",
-      "pontos": 130,
-      "foto": "assets/rafael2543.jpg"
+      "aluno": "Gustavo Silva",
+      "pontos": 110,
+      "foto": "assets/iol4470.jpg"
     },
     {
       "id": 44,
       "estado": "Paraná",
-      "aluno": "Victor Barbosa",
-      "pontos": 145,
-      "foto": "assets/victor3698.jpg"
+      "aluno": "Ricardo Gonçalves",
+      "pontos": 138,
+      "foto": "assets/ion8860.jpg"
     },
     {
       "id": 45,
       "estado": "Paraná",
-      "aluno": "Lucas Ferreira",
-      "pontos": 120,
-      "foto": "assets/lucas9182.jpg"
+      "aluno": "Luiz Henrique Oliveira",
+      "pontos": 115,
+      "foto": "assets/ise6475.jpg"
     },
     {
       "id": 46,
       "estado": "Paraná",
-      "aluno": "Vinícius Ribeiro",
-      "pontos": 128,
-      "foto": "assets/vinicius9283.jpg"
+      "aluno": "Marcelo Ribeiro",
+      "pontos": 130,
+      "foto": "assets/JUA0949.jpg"
     },
     {
       "id": 47,
       "estado": "Paraná",
-      "aluno": "Leandro Melo",
-      "pontos": 112,
-      "foto": "assets/leandro4723.jpg"
+      "aluno": "Felipe Costa",
+      "pontos": 145,
+      "foto": "assets/JVB3964.jpg"
     },
     {
       "id": 48,
       "estado": "Paraná",
-      "aluno": "Felipe Cardoso",
-      "pontos": 130,
-      "foto": "assets/felipe6381.jpg"
+      "aluno": "Rodrigo Mendes",
+      "pontos": 120,
+      "foto": "assets/JVI7625.jpg"
     },
     {
       "id": 49,
       "estado": "Paraná",
-      "aluno": "Marcos Silva",
-      "pontos": 140,
-      "foto": "assets/marcos2837.jpg"
+      "aluno": "Bruno Barbosa",
+      "pontos": 128,
+      "foto": "assets/KAN6115.jpg"
     },
     {
       "id": 50,
       "estado": "Paraná",
-      "aluno": "Fernando Gomes",
-      "pontos": 125,
-      "foto": "assets/fernando1245.jpg"
+      "aluno": "Rafael Ferreira",
+      "pontos": 112,
+      "foto": "assets/KAV9299.jpg"
     },
     {
       "id": 51,
       "estado": "Paraná",
-      "aluno": "Caio Mendes",
+      "aluno": "Caio Cardoso",
+      "pontos": 130,
+      "foto": "assets/KDD1657.jpg"
+    },
+    {
+      "id": 52,
+      "estado": "Paraná",
+      "aluno": "Daniel Martins",
+      "pontos": 140,
+      "foto": "assets/KEG8687.jpg"
+    },
+    {
+      "id": 53,
+      "estado": "Paraná",
+      "aluno": "Igor Souza",
+      "pontos": 125,
+      "foto": "assets/lan8778.jpg"
+    },
+    {
+      "id": 54,
+      "estado": "Paraná",
+      "aluno": "Vinícius Araújo",
       "pontos": 135,
-      "foto": "assets/caio9184.jpg"
+      "foto": "assets/lar7960.jpg"
+    },
+    {
+      "id": 55,
+      "estado": "Paraná",
+      "aluno": "João Almeida",
+      "pontos": 145,
+      "foto": "assets/las5763.jpg"
+    },
+    {
+      "id": 56,
+      "estado": "Paraná",
+      "aluna": "Mariana Silva",
+      "pontos": 135,
+      "foto": "assets/swa1115.jpg"
+    },
+    {
+      "id": 57,
+      "estado": "Paraná",
+      "aluno": "Thiago Santos",
+      "pontos": 125,
+      "foto": "assets/lor7563.jpg"
+    },
+    {
+      "id": 58,
+      "estado": "Paraná",
+      "aluno": "Lucas Oliveira",
+      "pontos": 140,
+      "foto": "assets/LWC6137.jpg"
+    },
+    {
+      "id": 59,
+      "estado": "Paraná",
+      "aluna": "Juliana Costa",
+      "pontos": 120,
+      "foto": "assets/uma2216.jpg"
+    },
+    {
+      "id": 60,
+      "estado": "Paraná",
+      "aluno": "Mateus Rocha",
+      "pontos": 110,
+      "foto": "assets/mph1314.jpg"
+    },
+    {
+      "id": 61,
+      "estado": "Paraná",
+      "aluno": "Ricardo Nunes",
+      "pontos": 132,
+      "foto": "assets/mph5384.jpg"
+    },
+    {
+      "id": 62,
+      "estado": "Paraná",
+      "aluno": "Renato Martins",
+      "pontos": 128,
+      "foto": "assets/MRG3866.jpg"
+    },
+    {
+      "id": 63,
+      "estado": "Paraná",
+      "aluno": "Felipe Araújo",
+      "pontos": 130,
+      "foto": "assets/MWV0644.jpg"
+    },
+    {
+      "id": 64,
+      "estado": "Paraná",
+      "aluno": "Gustavo Ribeiro",
+      "pontos": 145,
+      "foto": "assets/nar5004.jpg"
+    },
+    {
+      "id": 65,
+      "estado": "Paraná",
+      "aluno": "Bruno Ferreira",
+      "pontos": 120,
+      "foto": "assets/NBZ8943.jpg"
+    },
+    {
+      "id": 66,
+      "estado": "Paraná",
+      "aluno": "Paulo Cardoso",
+      "pontos": 138,
+      "foto": "assets/NEU6018.jpg"
+    },
+    {
+      "id": 67,
+      "estado": "Paraná",
+      "aluno": "Rafael Souza",
+      "pontos": 115,
+      "foto": "assets/non2130.jpg"
+    },
+    {
+      "id": 68,
+      "estado": "Paraná",
+      "aluno": "Vitor Mendes",
+      "pontos": 130,
+      "foto": "assets/npu4991.jpg"
+    },
+    {
+      "id": 69,
+      "estado": "Paraná",
+      "aluna": "Ana Paula Farias",
+      "pontos": 125,
+      "foto": "assets/urz4841.jpg"
+    },
+    {
+      "id": 70,
+      "estado": "Paraná",
+      "aluno": "Daniel Correia",
+      "pontos": 145,
+      "foto": "assets/nza2086.jpg"
+    },
+    {
+      "id": 71,
+      "estado": "Paraná",
+      "aluno": "Leandro Barros",
+      "pontos": 135,
+      "foto": "assets/odu7088.jpg"
+    },
+    {
+      "id": 72,
+      "estado": "Paraná",
+      "aluno": "Carlos Pereira",
+      "pontos": 830,
+      "foto": "assets/ofa6375.jpg"
+    },
+    {
+      "id": 73,
+      "estado": "Paraná",
+      "aluno": "Eduardo Souza",
+      "pontos": 780,
+      "foto": "assets/ole9267.jpg"
+    },
+    {
+      "id": 74,
+      "estado": "Paraná",
+      "aluno": "Leonardo Martins",
+      "pontos": 750,
+      "foto": "assets/oti2248.jpg"
+    },
+    {
+      "id": 75,
+      "estado": "Paraná",
+      "aluno": "Rodrigo Oliveira",
+      "pontos": 720,
+      "foto": "assets/rao4735.jpg"
+    },
+    {
+      "id": 76,
+      "estado": "Paraná",
+      "aluno": "Bruno Lima",
+      "pontos": 700,
+      "foto": "assets/rgo9694.jpg"
+    },
+    {
+      "id": 77,
+      "estado": "Paraná",
+      "aluno": "Felipe Gonçalves",
+      "pontos": 690,
+      "foto": "assets/rid4479.jpg"
+    },
+    {
+      "id": 78,
+      "estado": "Paraná",
+      "aluno": "João Mendes",
+      "pontos": 670,
+      "foto": "assets/rim3437.jpg"
+    },
+    {
+      "id": 79,
+      "estado": "Paraná",
+      "aluno": "Ricardo Batista",
+      "pontos": 660,
+      "foto": "assets/ror8417.jpg"
+    },
+    {
+      "id": 80,
+      "estado": "Paraná",
+      "aluno": "Thiago Costa",
+      "pontos": 640,
+      "foto": "assets/rpa5198.jpg"
+    },
+    {
+      "id": 81,
+      "estado": "Paraná",
+      "aluno": "Paulo Ferreira",
+      "pontos": 630,
+      "foto": "assets/sgi6619.jpg"
+    },
+    {
+      "id": 82,
+      "estado": "Paraná",
+      "aluno": "André Almeida",
+      "pontos": 620,
+      "foto": "assets/ura8248.jpg"
+    },
+    {
+      "id": 83,
+      "estado": "Paraná",
+      "aluno": "Marcelo Barbosa",
+      "pontos": 610,
+      "foto": "assets/urn4229.jpg"
+    },
+    {
+      "id": 84,
+      "estado": "Paraná",
+      "aluno": "Rafael Lima",
+      "pontos": 600,
+      "foto": "assets/urn6041.jpg"
+    },
+    {
+      "id": 85,
+      "estado": "Paraná",
+      "aluno": "Guilherme Nogueira",
+      "pontos": 580,
+      "foto": "assets/uzi6489.jpg"
+    },
+    {
+      "id": 86,
+      "estado": "Paraná",
+      "aluno": "Matheus Silva",
+      "pontos": 570,
+      "foto": "assets/val9012.jpg"
+    },
+    {
+      "id": 87,
+      "estado": "Paraná",
+      "aluno": "Lucas Vieira",
+      "pontos": 550,
+      "foto": "assets/vey2345.jpg"
+    },
+    {
+      "id": 88,
+      "estado": "Paraná",
+      "aluno": "Diego Lopes",
+      "pontos": 530,
+      "foto": "assets/xuy8914.jpg"
+    },
+    {
+      "id": 89,
+      "estado": "Paraná",
+      "aluno": "Irineu Fernando Souza",
+      "pontos": 989,
+      "foto": "assets/zie8984.jpg"
     }
 
   ],
