@@ -6,7 +6,7 @@ const PORT = 3000;
 
 app.use(express.json());
 
-// possui +3 imagens de mulheres
+
 
 const readDatabase = () => {
   const data = fs.readFileSync('database.json');
@@ -41,6 +41,14 @@ app.post('/login', (req, res) => {
     res.status(404).json({ message: 'Usuário não encontrado ou senha incorreta' });
   }
 });
+
+// GET - Lista Alunos
+app.get('/alunos', (req, res) => {
+  const db = readDatabase();
+  const alunos = db.alunos;
+
+  res.status(200).json(alunos);
+})
 
 // POST - Adicionar novo usuário
 app.post('/alunos', (req, res) => {

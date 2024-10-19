@@ -41,8 +41,15 @@ Realiza o login do usuário com base em email e senha.
 }
 ~~~
 
+#### 2. **Listar alunos (GET /alunos)**
 
-#### 2. **Adicionar Novo Usuário (POST /alunos)**
+Lista todos os alunos cadastrados
+
+Exemplo GET:
+
+    http://localhost:3000/alunos
+
+#### 3. **Adicionar Novo Usuário (POST /alunos)**
 
 Adiciona um novo usuário ao banco de dados.
 
@@ -58,7 +65,7 @@ Adiciona um novo usuário ao banco de dados.
 ~~~
 
 
-#### 3. **Atualizar Informações do Usuário (PUT /alunos/:id)**
+#### 4. **Atualizar Informações do Usuário (PUT /alunos/:id)**
 
 Atualiza os dados de um aluno já cadastrado.
 Parâmetros da URL:
@@ -73,7 +80,15 @@ id: ID do aluno.
 
 
 ## **DISCIPLINAS**
-#### 4. **Disciplinas do Curso do Usuário (GET /disciplinas-usuario/:id)**
+#### 5. **Todos os Cursos (GET /cursos)**
+
+Retorna todos os cursos cadstrados.
+
+Exemplo GET:
+
+    http://localhost:3000/cursos
+
+#### 6. **Disciplinas do Curso do Usuário (GET /disciplinas-usuario/:id)**
 
 Retorna as disciplinas do curso associado ao aluno logado.
 **Parâmetros da URL:**
@@ -84,7 +99,7 @@ Exemplo GET:
     http://localhost:3000/disciplinas-usuario/1
 
 
-#### 5. **Todas as Disciplinas (GET /disciplinas)**
+#### 7. **Todas as Disciplinas (GET /disciplinas)**
 
 Retorna todas as disciplinas de todos os cursos.
 
@@ -95,7 +110,7 @@ Exemplo GET:
 
 
 ## **RANKING**
-#### 6. **Todos os Dados de Ranking (GET /ranking)**
+#### 8. **Todos os Dados de Ranking (GET /ranking)**
 
 Retorna todos os dados do ranking.
 
@@ -103,7 +118,7 @@ Exemplo GET:
 
     http://localhost:3000/ranking
 
-#### 7. **Ranking dos Alunos do Mesmo Curso (GET /ranking-curso/:id)**
+#### 9. **Ranking dos Alunos do Mesmo Curso (GET /ranking-curso/:id)**
 
 Retorna os dados de ranking referentes aos alunos do mesmo curso do aluno logado.
 Parâmetros da URL:
@@ -113,7 +128,7 @@ Exemplo GET:
     
     http://localhost:3000/ranking-curso/1
 
-#### 8. Top 10 Ranking do Mesmo Curso (GET /ranking-top10/:id)
+#### 10. Top 10 Ranking do Mesmo Curso (GET /ranking-top10/:id)
 
 Retorna os 10 primeiros colocados do ranking do curso do aluno logado.
 Parâmetros da URL:
